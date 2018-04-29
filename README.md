@@ -10,7 +10,9 @@ Question, Type, Choice 1, Chocie 2, Choice 3...
 - Checkbox
 - Multiple
 - Text
+- Title
+- Description
 
 ## Note
-Multiple and Checkbox type expect values for one or more Choice columns. Non-compliant rows will be ignored.
+Multiple and Checkbox type expect values for one or more Choice columns. Non-compliant rows will be ignored. Choice columns are ignored for all other types. For title and description, latter rows will override any former rows.
 
