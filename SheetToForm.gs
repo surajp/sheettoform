@@ -17,6 +17,10 @@ function convertToForm() {
       myForm.addCheckboxItem().setTitle(question).setChoiceValues(data[i].slice(2,lastColWithVal)).setRequired(true);
     else if(type=='Section')
       myForm.addSectionHeaderItem().setTitle(question);
+    else if(type=='Title')
+      myForm.setTitle(question);
+    else if(type=='Description')
+      myForm.setDescription(question);
   }
   Logger.log('Published URL: ' + myForm.getPublishedUrl());
   var openForm = HtmlService.createHtmlOutput('<button onclick="window.open(\''+myForm.getPublishedUrl()+'\',\'_blank\');google.script.host.close()">Click to Open</button>');
