@@ -1,4 +1,4 @@
-# sheettoform
+# Google Sheets to Forms
 Simple Script that converts Google Sheets to Google Form
 
 
