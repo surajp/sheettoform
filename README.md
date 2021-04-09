@@ -23,3 +23,4 @@ Question, Type, IsRequired, Choice 1, Chocie 2, Choice 3...
 ## Note
 Multiple,Dropdown and Checkbox type expect values for one or more Choice columns. Non-compliant rows will be ignored. Choice columns are ignored for all other types. For title and description, latter rows will override any former rows.
 
+Sample doc [here](https://docs.google.com/spreadsheets/d/1QOEQHEbo884YDO4jmBezJDTjwPB9ZdX_LBEkFK8nEYQ/edit?usp=sharing)
